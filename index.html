@@ -370,7 +370,7 @@
 				var img4 = document.getElementById("image_place4");
 
 				var json = [];
-				req.open('GET', 'http://www.proura.sakura.ne.jp/api/tw.cgi');
+				req.open('GET', 'https://www.proura.sakura.ne.jp/api/tw.cgi');
 				req.onreadystatechange = function() {
 					if (req.readyState == 4 && req.status == 200) {
 						console.log(req.responseText);
